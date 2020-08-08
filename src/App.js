@@ -4,9 +4,6 @@ import Recipe from './Recipe';
 const App = () => {
   const API_KEY = 'dcad503797e3e10b94b55e1d642ca40d';
   const API_ID = '8de3d13c';
-  const EXAMPLE_API =
-    'https://api.edamam.com/search?q=chicken&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}';
-
   const [recipes, setRecipe] = useState([]);
   const [search, setSearch] = useState('');
   const [query, setQuery] = useState('chicken');
