@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 5px;
+  background-color: aquamarine;
+  border: solid 5px black;
+  display: flex;
+  margin: 30px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.list {
+  border: solid goldenrod 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  min-height: 100vh;
+
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+}
+
+.SearchForm {
+  min-height: 8vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+
+.search_bar {
+  border: solid black;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.search_button {
+  border: solid black;
+  border-radius: 15px;
+  color: black;
+  font-weight: 300;
+  background: white;
+  padding: 10px 20px;
+}
+
+.items {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
